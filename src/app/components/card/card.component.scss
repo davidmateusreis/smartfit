@@ -1,0 +1,71 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    padding: 12px 8px;
+    border-radius: 8px;
+
+    background-color: #f5f5f5;
+
+    -webkit-box-shadow: -1px 2px 10px -6px rgba(51, 51, 51, 1);
+    -moz-box-shadow: -1px 2px 10px -6px rgba(51, 51, 51, 1);
+    box-shadow: -1px 2px 10px -6px rgba(51, 51, 51, 1);
+
+    gap: 8px;
+    height: 420px;
+    width: 290px;
+}
+
+.card .divider {
+    height: 2px;
+    width: 100%;
+    background-color: var(--light-text);
+}
+
+.card span {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--red);
+}
+
+.card span.opened {
+    color: var(--green);
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-grey);
+}
+
+.card p {
+    font-size: 14px;
+    color: var(--light-grey);
+}
+
+.card ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 24px;
+}
+
+.card li {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--dark-grey);
+}
+
+.card li b {
+    font-size: 16px;
+    color: var(--dark-grey);
+}
+
+.card img {
+    height: 50px;
+}
